@@ -1,0 +1,3 @@
+[submodule "test/qooxdoo"]
+	path = test/qooxdoo
+	url = https://github.com/qooxdoo/qooxdoo.git
