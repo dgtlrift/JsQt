@@ -1,7 +1,7 @@
 {
   "info" : 
   {
-    "name" : "test",
+    "name" : "test_class_path",
 
     "summary" : "Custom Application",
     "description" : "This is a skeleton for a custom application with qooxdoo.",
@@ -17,13 +17,13 @@
       }
     ],
 
-    "version" : "trunk",
-    "qooxdoo-versions": ["0.8.3"]
+    "version" : "master",
+    "qooxdoo-versions": ["6.0.0-alpha"]
   },
   
   "provides" : 
   {
-    "namespace"   : "test",
+    "namespace"   : "com.myorg.test_class_path",
     "encoding"    : "utf-8",
     "class"       : "source/class",
     "resource"    : "source/resource",

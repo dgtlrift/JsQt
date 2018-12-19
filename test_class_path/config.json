@@ -1,5 +1,5 @@
 {
-  "name"    : "test",
+  "name"    : "test_class_path",
 
   "include" :
   [
@@ -11,44 +11,55 @@
   "export" :
   [
     "api",
+    "api-data",
     "build",
     "clean",
     "distclean",
+    "dependencies",
     "fix",
-    "inspector",
+    "info",
     "lint",
     "migration",
     "pretty",
     "profiling",
     "source",
     "source-all",
+    "source-hybrid",
+    "source-server",
+    "source-server-reload",
+    "source-httpd-config",
     "test",
     "test-source",
-    "translation"
+    "translation",
+    "validate-config",
+    "validate-manifest",
+    "watch"
   ],
+
+  "default-job" : "source-hybrid",
 
   "let" :
   {
-    "APPLICATION"  : "test",
-    "QOOXDOO_PATH" : "qooxdoo",
-    "QXTHEME"      : "test.theme.Theme",
-    "API_EXCLUDE"  : ["qx.legacy.*","qx.test.*"],
+    "APPLICATION"  : "com.myorg.test_class_path",
+    "QOOXDOO_PATH" : "../test/qooxdoo",
+    "QXTHEME"      : "com.myorg.test_class_path.theme.Theme",
+    "API_EXCLUDE"  : ["qx.test.*", "${APPLICATION}.theme.*", "${APPLICATION}.test.*"],
     "LOCALES"      : [ "en" ],
-    "CACHE"        : "${TMPDIR}/cache",
+    "CACHE"        : "${TMPDIR}/qx${QOOXDOO_VERSION}/cache",
     "ROOT"         : "."
-  }
+  },
 
   // You only need to edit the remainder of this file, if you want to customize
   // specific jobs, or add own job definitions.
 
-  /*
   "jobs" :
   {
     // Uncomment the following entry to add a contrib or library to your
     // project; make sure to adapt the path to the Manifest.json; if you are
     // using a contrib: library, it will be downloaded into the path specified
     // by the 'cache/downloads' config key
-    "libraries" : 
+    /*
+    "libraries" :
     {
       "library" :
       [
@@ -56,14 +67,16 @@
           "manifest" : "contrib://SkeletonApplication/trunk/Manifest.json"
         }
       ]
-    },
+    }
+    */
 
     // If you want to tweak a job setting, see the following sample where
     // the "format" feature of the "build-script" job is overridden.
     // To see a list of available jobs, invoke 'generate.py x'.
-    "build-script" :
+    /*
+    ,"build-script" :
     {
-      "compile-dist" : 
+      "compile-options" :
       {
         "code" :
         {
@@ -71,6 +84,6 @@
         }
       }
     }
+    */
   }
-  */
 }
