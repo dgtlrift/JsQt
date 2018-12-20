@@ -3,22 +3,21 @@
   {
     "name" : "test_class_path",
 
-    "summary" : "Custom Application",
-    "description" : "This is a skeleton for a custom application with qooxdoo.",
+    "summary" : "Tests Class Paths for JsQt",
+    "description" : "",
     
-    "homepage" : "http://some.homepage.url/",
+    "homepage" : "",
 
-    "license" : "SomeLicense",
-    "authors" : 
-    [
-      {
-        "name" : "First Author (uid)",
-        "email" : "first.author@some.domain"
-      }
-    ],
+    "license" : "MIT license",
+    "authors" : [
+  {
+    "name": "",
+    "email": ""
+  }
+],
 
-    "version" : "master",
-    "qooxdoo-versions": ["6.0.0-alpha"]
+    "version" : "1.0.0",
+    "qooxdoo-range": "^6.0.0-alpha-20181116-263f2cc9"
   },
   
   "provides" : 
@@ -31,4 +30,3 @@
     "type"        : "application"
   }
 }
-

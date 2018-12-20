@@ -1,0 +1,24 @@
+{
+  "targets": [
+    {
+      "type": "source",
+      "outputPath": "source-output"
+    },
+    {
+      "type": "build",
+      "outputPath": "build-output"
+    }
+  ],
+  "defaultTarget": "source",
+  "locales": ["en"],
+  "environment": { 
+      "qx.icontheme": "Tango"
+  },     
+  "applications": [
+    {
+      "class": "com.myorg.test_class_path.Application",
+      "theme": "com.myorg.test_class_path.theme.Theme",
+      "name": "com.myorg.test_class_path"
+    }
+  ]
+}

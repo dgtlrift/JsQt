@@ -1,17 +1,17 @@
 /* ************************************************************************
 
-   Copyright:
+   Copyright: 2018 
 
-   License:
+   License: MIT license
 
-   Authors:
+   Authors: 
 
 ************************************************************************ */
 
 /**
  * This class demonstrates how to define unit tests for your application.
  *
- * Execute <code>generate.py test</code> to generate a testrunner application 
+ * Execute <code>qx test</code> to generate a testrunner application 
  * and open it from <tt>test/index.html</tt>
  *
  * The methods that contain the tests are instance methods with a 
