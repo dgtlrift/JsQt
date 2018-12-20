@@ -1,21 +1,9 @@
-/* ************************************************************************
-
-   Copyright:
-
-   License:
-
-   Authors:
-
-************************************************************************ */
-
-qx.Theme.define("com.myorg.test_class_path.theme.Theme",
-{
-  meta :
-  {
-    color : com.myorg.test_class_path.theme.Color,
-    decoration : com.myorg.test_class_path.theme.Decoration,
-    font : com.myorg.test_class_path.theme.Font,
-    icon : qx.theme.icon.Tango,
-    appearance : com.myorg.test_class_path.theme.Appearance
-  }
+qx.Theme.define("test.theme.Theme", {
+    meta : {
+         font : test.theme.Font
+        ,icon : qx.theme.icon.Tango
+        ,color : test.theme.Color
+        ,decoration : test.theme.Decoration
+        ,appearance : test.theme.Appearance
+    }
 });
