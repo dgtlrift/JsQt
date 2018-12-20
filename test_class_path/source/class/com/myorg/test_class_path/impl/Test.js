@@ -1,5 +1,5 @@
 
-qx.Class.define("test.impl.Test", { extend: test.draw.Test
+qx.Class.define("com.myorg.test_class_path.impl.Test", { extend: com.myorg.test_class_path.draw.Test
     ,members:  {
         /*
          * the same create_lbl_custom function is defined the draw class.

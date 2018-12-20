@@ -1,6 +1,18 @@
+/* ************************************************************************
 
-qx.Theme.define("test.theme.Color", { extend : qx.theme.modern.Color
-    ,colors : {
+   Copyright:
 
-    }
+   License:
+
+   Authors:
+
+************************************************************************ */
+
+qx.Theme.define("com.myorg.test_class_path.theme.Color",
+{
+  extend : qx.theme.indigo.Color,
+
+  colors :
+  {
+  }
 });

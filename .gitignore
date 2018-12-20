@@ -3,3 +3,4 @@ nbproject
 src/JsQt.egg-info/*
 build/*
 dist/*
+test*/source/script
